@@ -1,0 +1,28 @@
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  justify-content: space-between;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  box-sizing: border-box;
+
+  label {
+    width: 100%;
+  }
+
+  input {
+    width: 70%;
+  }
+
+  input,
+  button {
+    padding: 5px;
+  }
+
+  .error {
+    color: red
+  }
+}
